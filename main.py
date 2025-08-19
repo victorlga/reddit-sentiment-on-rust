@@ -6,8 +6,9 @@ from collections import defaultdict
 # -----------------------
 DAYS = 30
 HITS_PER_PAGE = 100
+QUERY = "rust"
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_0)"
-REDDIT_API = "https://www.reddit.com/r/rust/search.json"
+REDDIT_API = f"https://www.reddit.com/r/{QUERY}/search.json"
 ANEW_PATH = "data/anew.csv"
 
 # -----------------------
@@ -43,27 +44,18 @@ def analyze_text(text):
                 scores[k].append(v)
 
     if not scores:
-        return {"pleasure": 0, "arousal": 0, "dominance": 0, "sentiment": "neutral"}
+        return {"pleasure": 0, "arousal": 0, "dominance": 0, "sentiment": "empty"}
 
-    avg = {k: sum(v)/len(v) for k, v in scores.items()}
+    avg = {k: sum(v)/len(v) for k, v in scores.items() if len(v) > 0}
 
-    # simple rule: positive if pleasure > 5, negative if < 5
-    print(avg["pleasure"])
-    print("-------------\n\n")
-    if avg["pleasure"] > 55:
-        label = "positive"
-    elif avg["pleasure"] < 45:
-        label = "negative"
-    else:
-        label = "neutral"
-
-    avg["sentiment"] = label
+    # simple rule: positive if pleasure > 50, negative if < 50
+    avg["sentiment"] = "positive" if avg["pleasure"] > 50 else "negative"
     return avg
 
 # -----------------------
 # DATA COLLECTION
 # -----------------------
-def fetch_posts(query="rust"):
+def fetch_posts(query=QUERY):
     cutoff = int(time.time() - DAYS*24*60*60)
     params = {"q": query, "restrict_sr": "on", "sort": "new", "limit": HITS_PER_PAGE}
     headers = {"User-Agent": USER_AGENT}
@@ -109,19 +101,23 @@ def fetch_posts(query="rust"):
 def main():
     os.makedirs("data", exist_ok=True)
 
-    posts = fetch_posts("rust")
+    posts = fetch_posts(QUERY)
 
     analyzed = []
     for p in posts:
         texts = [p["title"], p["selftext"]] + p["comments"]
 
         all_scores = [analyze_text(t) for t in texts if t]
+
         if not all_scores:
-            sentiment = "neutral"
+            sentiment = "not enough data"
         else:
             # majority vote by label
-            labels = [s["sentiment"] for s in all_scores]
-            sentiment = max(set(labels), key=labels.count)
+            labels = [s["sentiment"] for s in all_scores if s["sentiment"] != "empty"]
+            if not labels:
+                sentiment = "not enough data"
+            else:
+                sentiment = max(set(labels), key=labels.count)
 
         analyzed.append({
             "title": p["title"],
@@ -140,7 +136,7 @@ def main():
         "posts": analyzed
     }
 
-    with open("data/rust_sentiment.json", "w", encoding="utf-8") as f:
+    with open(f"data/{QUERY}_sentiment.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
     print(json.dumps(results["summary"], indent=2))

@@ -1,0 +1,609 @@
+{
+  "summary": {
+    "not enough data": 8,
+    "positive": 90,
+    "negative": 2
+  },
+  "posts": [
+    {
+      "title": "Whatsapp client written purely in Rust based on whatsmeow and baileys",
+      "created_utc": 1755566980.0,
+      "sentiment": "not enough data",
+      "comments_count": 0
+    },
+    {
+      "title": "A new repo flattener, written in Rust, Git respected",
+      "created_utc": 1755566642.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "What Is The Practical Difference Between The `min_specialization` And `specialization` Features?",
+      "created_utc": 1755558104.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Are there any official servers with offline protection?",
+      "created_utc": 1755555826.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Candle v ONNX + Donut",
+      "created_utc": 1755555213.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "[media] Has anyone ever looked into a rust executable file before?",
+      "created_utc": 1755554769.0,
+      "sentiment": "positive",
+      "comments_count": 7
+    },
+    {
+      "title": "How Is Specialization Implemented In Rust?",
+      "created_utc": 1755549898.0,
+      "sentiment": "positive",
+      "comments_count": 4
+    },
+    {
+      "title": "rLLM-graph",
+      "created_utc": 1755543977.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "Release BoquilaHUB 0.3 - AIs to monitor biodiversity. Written in Rust.",
+      "created_utc": 1755542441.0,
+      "sentiment": "not enough data",
+      "comments_count": 0
+    },
+    {
+      "title": "Sifintra, a simple finance tracker",
+      "created_utc": 1755541821.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "Introducing ollama2llama + ollama-file-find: a migration path from Ollama to llama-swap (and why I wrote them after the license attribution issue)",
+      "created_utc": 1755539636.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "We made an open-source port of Reticulum to Rust. Any feedback &amp; suggestions are very much appreciated",
+      "created_utc": 1755534611.0,
+      "sentiment": "not enough data",
+      "comments_count": 1
+    },
+    {
+      "title": "I wrote an alternative to Redis/Valkey Sentinel",
+      "created_utc": 1755532962.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "Is calling tokio::sleep() with a duration of one week a bad idea?",
+      "created_utc": 1755529608.0,
+      "sentiment": "positive",
+      "comments_count": 41
+    },
+    {
+      "title": "Czkawka / Krokiet 10.0: cleaning duplicates, unifying features and a handful of Rust related statistics",
+      "created_utc": 1755529579.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Can one cast a `Box&lt;dyn Any&gt;` to a `Box&lt;dyn Trait&gt;` or a `dyn Any` to a `dyn Trait` if none of the concrete types are known?",
+      "created_utc": 1755529280.0,
+      "sentiment": "positive",
+      "comments_count": 5
+    },
+    {
+      "title": "Rust API Wrapper Best Practices?",
+      "created_utc": 1755526546.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "dysk 3 (\"like df but better\"), now compatible with Mac",
+      "created_utc": 1755525104.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "[Media] Rust Only Video Game Development",
+      "created_utc": 1755511534.0,
+      "sentiment": "positive",
+      "comments_count": 11
+    },
+    {
+      "title": "Looking for help to design a \"node -&gt; target node\" system",
+      "created_utc": 1755510001.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Making CLI Tools with Trustfall",
+      "created_utc": 1755505230.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "rust-analyzer weekly releases paused in anticipation of new trait solver (already available on nightly). The Rust dev experience is starting to get really good :)",
+      "created_utc": 1755504320.0,
+      "sentiment": "positive",
+      "comments_count": 16
+    },
+    {
+      "title": "ANN: rsticle – A a tool to convert a source file into an \"article\" about itself",
+      "created_utc": 1755503242.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Introducing Theta, an async actor framework for Rust",
+      "created_utc": 1755501884.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "Are there any compile-time string interners?",
+      "created_utc": 1755501061.0,
+      "sentiment": "positive",
+      "comments_count": 7
+    },
+    {
+      "title": "What's everyone working on this week (34/2025)?",
+      "created_utc": 1755498333.0,
+      "sentiment": "positive",
+      "comments_count": 8
+    },
+    {
+      "title": "Hey Rustaceans! Got a question? Ask here (34/2025)!",
+      "created_utc": 1755498239.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "Testing failure modes",
+      "created_utc": 1755480135.0,
+      "sentiment": "negative",
+      "comments_count": 0
+    },
+    {
+      "title": "Why Actix Web &amp; not Axum !?",
+      "created_utc": 1755473536.0,
+      "sentiment": "positive",
+      "comments_count": 6
+    },
+    {
+      "title": "A business card that's also an embedded device with LED display running a fluid simulation, written in Rust",
+      "created_utc": 1755469764.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "Making a real-time build visualizer for compiled language toolchains (including Rust)",
+      "created_utc": 1755469318.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "Learning Rust",
+      "created_utc": 1755467817.0,
+      "sentiment": "positive",
+      "comments_count": 7
+    },
+    {
+      "title": "Is the *Nom* crate a good option for parsing a complex syntax? It seems like a really promising rust parsing library, if you have any experience with it please share it.",
+      "created_utc": 1755462245.0,
+      "sentiment": "positive",
+      "comments_count": 22
+    },
+    {
+      "title": "What type of projects to professional Rust devs do?",
+      "created_utc": 1755456030.0,
+      "sentiment": "positive",
+      "comments_count": 21
+    },
+    {
+      "title": "Just released doxx – a terminal .docx viewer inspired by Charm's glow package",
+      "created_utc": 1755455537.0,
+      "sentiment": "positive",
+      "comments_count": 13
+    },
+    {
+      "title": "Pure Rust, No/Minimal Crate Graphics Window",
+      "created_utc": 1755446814.0,
+      "sentiment": "positive",
+      "comments_count": 8
+    },
+    {
+      "title": "Please help explain this basic generic problem.",
+      "created_utc": 1755446477.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "I made a minimal, tiny terminal pager to (re-)learn Rust! Have a look.",
+      "created_utc": 1755442198.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "I will be rewritting and improving this, but check this out.",
+      "created_utc": 1755440908.0,
+      "sentiment": "negative",
+      "comments_count": 2
+    },
+    {
+      "title": "How to set up rust-gpu and winit?",
+      "created_utc": 1755440457.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Reviving Montage — A Lightweight, Intuitive Open-Source Video Editor",
+      "created_utc": 1755434149.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "Yet another Kubernetes Desktop Client",
+      "created_utc": 1755431945.0,
+      "sentiment": "not enough data",
+      "comments_count": 0
+    },
+    {
+      "title": "Efficient point cloud rendering in three-d",
+      "created_utc": 1755429702.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "local search engine",
+      "created_utc": 1755429144.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "dav1d cross compilation when using image crate with avif enabled",
+      "created_utc": 1755419787.0,
+      "sentiment": "positive",
+      "comments_count": 4
+    },
+    {
+      "title": "✨doxxer✨ - Automates SemVer versioning using your Git tags and commit history",
+      "created_utc": 1755415100.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Need help exploring CRDTs and implementing them in Rust",
+      "created_utc": 1755414509.0,
+      "sentiment": "positive",
+      "comments_count": 7
+    },
+    {
+      "title": "Debugging Rust in Neovim",
+      "created_utc": 1755395869.0,
+      "sentiment": "positive",
+      "comments_count": 11
+    },
+    {
+      "title": "Rewrite of Numaflow: A Stream Processing Platform Written in Rust",
+      "created_utc": 1755394181.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "I'm about to take me first rust interview tomorrow.. I'am much worried about the coding interview part...any tips ?",
+      "created_utc": 1755393716.0,
+      "sentiment": "positive",
+      "comments_count": 21
+    },
+    {
+      "title": "How to continuously update a Dioxus page",
+      "created_utc": 1755383506.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "[Media] Releasing Mach - a web fuzzing tool designed for massive workloads",
+      "created_utc": 1755383184.0,
+      "sentiment": "positive",
+      "comments_count": 8
+    },
+    {
+      "title": "🛡️ **Rust Guardian v0.1.0 - Because \"It Compiles\" ≠ \"It's Done\"",
+      "created_utc": 1755382938.0,
+      "sentiment": "positive",
+      "comments_count": 6
+    },
+    {
+      "title": "Any foss Photo or Video editor written in Rust?",
+      "created_utc": 1755381382.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Introducing OxMPL - the Oxidised Motion-Planning Library",
+      "created_utc": 1755370121.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    },
+    {
+      "title": "What is an easy but capable graphics library for rust",
+      "created_utc": 1755360137.0,
+      "sentiment": "positive",
+      "comments_count": 14
+    },
+    {
+      "title": "Introducing cross platform volume control (cpvc) crate and a demo companion app vol-limiter",
+      "created_utc": 1755359690.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "I just published a minimal FAT32 file system driver written in #[no_std] rust. Designed specifically around the limitations of working with an SDCard in an embedded environment.",
+      "created_utc": 1755359449.0,
+      "sentiment": "positive",
+      "comments_count": 6
+    },
+    {
+      "title": "Lifetimes become an issue when using generic types in a function signature?",
+      "created_utc": 1755358661.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "typed-arrow - Provides compile‑time Arrow schemas for Rust.",
+      "created_utc": 1755354541.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "Rust cross-platform",
+      "created_utc": 1755350359.0,
+      "sentiment": "positive",
+      "comments_count": 5
+    },
+    {
+      "title": "Do you know any blog engine in Rust (Actix or Axum) that use OAuth2?",
+      "created_utc": 1755349624.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "Classi-Cine - Like autocomplete for video selection, curation and playlist building, built in Rust",
+      "created_utc": 1755349138.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "Renode + Embedded Rust",
+      "created_utc": 1755346567.0,
+      "sentiment": "not enough data",
+      "comments_count": 1
+    },
+    {
+      "title": "My first Rust crate",
+      "created_utc": 1755343034.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Help to practice rust in Termux",
+      "created_utc": 1755342498.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "My First Web Server in Rust!",
+      "created_utc": 1755335454.0,
+      "sentiment": "positive",
+      "comments_count": 7
+    },
+    {
+      "title": "Polars Rust examples/tutorials/alternatives?",
+      "created_utc": 1755334520.0,
+      "sentiment": "positive",
+      "comments_count": 8
+    },
+    {
+      "title": "Rust Utility for Managing PATH",
+      "created_utc": 1755334484.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "How is `rust analyzer` significantly slower on vim compared to vscode !!?",
+      "created_utc": 1755330210.0,
+      "sentiment": "positive",
+      "comments_count": 5
+    },
+    {
+      "title": "Rust Learning",
+      "created_utc": 1755326566.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "Speed wins when fuzzing Rust code with `#[derive(Arbitrary)]`",
+      "created_utc": 1755323786.0,
+      "sentiment": "positive",
+      "comments_count": 5
+    },
+    {
+      "title": "TypeSafe Builder Crate: compile-time verified builders",
+      "created_utc": 1755318456.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "markcat: A CLI program to format entire projects as Markdown",
+      "created_utc": 1755304634.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "whats the best rust framework for passwords",
+      "created_utc": 1755301896.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "Best practices for secure, multi-tenant WASM execution with Wasmtime in a high-stakes environment?",
+      "created_utc": 1755295028.0,
+      "sentiment": "positive",
+      "comments_count": 4
+    },
+    {
+      "title": "Can-t, Pytorch like rust lib for education",
+      "created_utc": 1755293282.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "Where should I start?",
+      "created_utc": 1755290555.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Interview prep advice",
+      "created_utc": 1755289079.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "gluau - Go bindings for the Luau programming language",
+      "created_utc": 1755283016.0,
+      "sentiment": "positive",
+      "comments_count": 4
+    },
+    {
+      "title": "Separation of concerns vs the luxury of derives?",
+      "created_utc": 1755278859.0,
+      "sentiment": "positive",
+      "comments_count": 8
+    },
+    {
+      "title": "The mutable reference I return from a function in Rust seems to violate the borrowing rules — how is this possible?",
+      "created_utc": 1755277033.0,
+      "sentiment": "positive",
+      "comments_count": 16
+    },
+    {
+      "title": "SeaQuery just made writing raw SQL more enjoyable",
+      "created_utc": 1755275237.0,
+      "sentiment": "positive",
+      "comments_count": 7
+    },
+    {
+      "title": "NEXIS — Kernel Completed, Now Expanding Drivers + Graphics (Need Advice)",
+      "created_utc": 1755272017.0,
+      "sentiment": "not enough data",
+      "comments_count": 1
+    },
+    {
+      "title": "macro-by-example follow-set confusion",
+      "created_utc": 1755271464.0,
+      "sentiment": "not enough data",
+      "comments_count": 1
+    },
+    {
+      "title": "I created a library that allows syntect to parse sublime-color-scheme files",
+      "created_utc": 1755270220.0,
+      "sentiment": "positive",
+      "comments_count": 1
+    },
+    {
+      "title": "cargo projects: Open-source, unstable, WIP Rust cli cargo projects manager tool",
+      "created_utc": 1755265061.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "The Embedded Rustacean Issue #52",
+      "created_utc": 1755258805.0,
+      "sentiment": "not enough data",
+      "comments_count": 0
+    },
+    {
+      "title": "Is there a crate for generating a new struct with the same fields as another struct, but where each field's type is a reference?",
+      "created_utc": 1755252262.0,
+      "sentiment": "positive",
+      "comments_count": 12
+    },
+    {
+      "title": "Lifetime issues when converting &amp;str to &amp;[char] in a pom parser",
+      "created_utc": 1755248165.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "Alright, I'm really trying to get serious with Rust. What's a long-term project idea that could actually turn into something big?",
+      "created_utc": 1755243850.0,
+      "sentiment": "positive",
+      "comments_count": 36
+    },
+    {
+      "title": "Code style for import order?",
+      "created_utc": 1755243050.0,
+      "sentiment": "positive",
+      "comments_count": 4
+    },
+    {
+      "title": "gawk: a simple but flexible observer library",
+      "created_utc": 1755240205.0,
+      "sentiment": "positive",
+      "comments_count": 3
+    },
+    {
+      "title": "Multiple error reporting",
+      "created_utc": 1755235602.0,
+      "sentiment": "positive",
+      "comments_count": 7
+    },
+    {
+      "title": "Lessons learned from implementing SIMD-accelerated algorithms in pure Rust",
+      "created_utc": 1755234037.0,
+      "sentiment": "positive",
+      "comments_count": 9
+    },
+    {
+      "title": "Looks like the cargo build directory setting was just stabilized",
+      "created_utc": 1755232722.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "[Media] I made a GTK Icon theme viewer in rust",
+      "created_utc": 1755227186.0,
+      "sentiment": "positive",
+      "comments_count": 2
+    },
+    {
+      "title": "Is Rust mature enough for simulation software?",
+      "created_utc": 1755225376.0,
+      "sentiment": "positive",
+      "comments_count": 10
+    },
+    {
+      "title": "FromResidual for bool",
+      "created_utc": 1755223641.0,
+      "sentiment": "positive",
+      "comments_count": 6
+    },
+    {
+      "title": "Library to generate fake data based on JSON schema",
+      "created_utc": 1755203712.0,
+      "sentiment": "positive",
+      "comments_count": 0
+    }
+  ]
+}
